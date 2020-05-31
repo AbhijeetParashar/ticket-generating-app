@@ -1,0 +1,59 @@
+/* Buttons */
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.buttons button  {
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 33%;
+        font-size: 18px;
+        outline: none;
+        border: 1px solid #c6c6c6;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: #444;
+        background-color: #f5f5f5;
+        min-height: 75px;
+        position: relative;
+  }
+  .buttons button .button-label{
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left:50%;
+      top: 50%;
+  }
+  
+  .buttons button:hover {
+    border: 1px solid #aaa;
+  }
+  
+  .buttons button:active {
+    background-color: rgba(0, 0, 0, 0.8);
+    outline: none;
+  }
+  
+  .buttons button:focus {
+    outline: none;
+  }
+
+  #equals:active,
+  #clear:active {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  #back {
+    /* color: #3da4ab; */
+    color : #5F5F5F;
+    font-weight: 700;
+  }
+  
+  #clear {
+    color: #e7223f;
+    font-weight: 700;
+  }

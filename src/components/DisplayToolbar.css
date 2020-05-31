@@ -1,0 +1,38 @@
+.display {
+    /* width: 97%; */
+    display: flex;
+    flex-flow: column;
+    -ms-flex-flow: column;
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+    background-color: #fff;
+    flex-grow: 1;
+  }
+
+  .display-input {
+    width: 100%;
+    resize: none;
+    font-family: Nunito Sans, Helvetica, Arial, sans-serif;
+    border: none;
+    outline: none;
+    text-align: right;
+    background-color: inherit;
+  }
+  textarea::placeholder {
+    color: red; 
+    font-size: 20px; 
+  }
+  
+  .display-input {
+    flex-shrink: 0;
+    font-size: 1.75rem;
+    color: #888;
+    white-space: nowrap;
+    padding-bottom: 15px;
+  }
+  
+  #backspace {
+    margin-left: 30px;
+    font-size: 1.5rem;
+  }
+  
