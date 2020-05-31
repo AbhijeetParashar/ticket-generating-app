@@ -1,4 +1,4 @@
-export default function (state = {data:["897689","111111"]}, action) {
+export default function (state = {data:[]}, action) {
     console.log(action);
     switch (action.type) {
         case 'ticketList':
