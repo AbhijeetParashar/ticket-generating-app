@@ -149,7 +149,7 @@
 .ticket-list-container .ticket-container .ticket-box .individual-number-container{
   text-align: center;
   flex-basis: 16.67%;
-  margin-top: 8px;
+  margin-top: 0px;
   font-size: 14px;
   position: relative;
 }
